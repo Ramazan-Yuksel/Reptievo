@@ -12,6 +12,16 @@
 Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
+<p align="center">
+<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">
+<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"/>
+</a>
+</p>
+
+<p align="center">
+📱 <b>Available now on Google Play:</b> <a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq</a>
+</p>
+
 ---
 
 # Overview
@@ -19,6 +29,22 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 Reptievo is a fitness assistant designed to remove the guesswork from strength training. Instead of manually calculating calories, protein intake, workout progression, and training volume, Reptievo automatically generates personalized workout plans and nutrition targets using a modern backend architecture.
 
 The application combines native Android development with intelligent backend services to deliver a complete, end-to-end fitness companion — from onboarding to daily training to long-term progression.
+
+---
+
+## 📱 Screenshots
+
+<p align="center">
+  <img src="./screenshots/dashboard.png" width="200"/>
+  <img src="./screenshots/weekly_plan.png" width="200"/>
+  <img src="./screenshots/workout_history.png" width="200"/>
+  <img src="./screenshots/stats.png" width="200"/>
+  <img src="./screenshots/cardio_log.png" width="200"/>
+</p>
+
+<p align="center">
+<i>Dashboard · Weekly Plan · Workout History · Stats · Cardio Logging</i>
+</p>
 
 ---
 
