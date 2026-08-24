@@ -13,17 +13,17 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">
-<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"/>
+<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">
+<img src="[https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)" alt="Get it on Google Play" height="60"/>
 </a>
 </p>
 
 <p align="center">
-📱 <b>Available now on Google Play:</b> <a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq</a>
+📱 <b>Available now on Google Play:</b> <a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">[play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)</a>
 </p>
 
 <p align="center">
-💼 <b>LinkedIn Company Page:</b> <a href="https://www.linkedin.com/company/reptievo/?viewAsMember=true">linkedin.com/company/reptievo</a>
+💼 <b>LinkedIn Company Page:</b> <a href="[https://www.linkedin.com/company/reptievo/?viewAsMember=true](https://www.linkedin.com/company/reptievo/?viewAsMember=true)">[https://www.linkedin.com/company/reptievo/?viewAsMember=true](https://www.linkedin.com/company/reptievo/?viewAsMember=true)</a>
 </p>
 
 ---
@@ -145,3 +145,58 @@ If no workout is scheduled for today, Reptievo automatically displays a Recovery
 ---
 
 ## 🏗 Architecture
+
+```
+Android App (Kotlin / Jetpack Compose)
+              │
+              ▼
+     REST API (FastAPI)
+              │
+              ▼
+   Supabase (Auth + PostgreSQL)
+```
+
+---
+
+## ✅ Current Features
+
+* Authentication & email verification
+* User onboarding
+* Nutrition calculator
+* Baseline workout generator
+* Progressive overload engine
+* Cardio tracking with calorie calculation
+* Workout history
+* Exercise overrides & swaps
+* Recovery day detection
+* Profile management
+* Automated CI/CD deployment
+
+## 🔮 Planned Features
+
+* PR tracking
+* Workout analytics
+* AI workout coach
+* Smart recovery suggestions
+* Apple Health integration
+* Google Fit integration
+* Wear OS support
+* Push notifications
+* Dark theme improvements
+
+---
+
+## 📄 Legal
+
+* [Privacy Policy](./PRIVACY_POLICY.md)
+* [Terms & Conditions](./TERMS_AND_CONDITIONS.md)
+* [License](./LICENSE) — this project is proprietary software.
+
+---
+
+## 👤 Author
+
+**Ramazan Yüksel**
+Computer Engineering Student · Backend Developer · Android Developer
+
+[GitHub](https://github.com/Ramazan-Yuksel)
