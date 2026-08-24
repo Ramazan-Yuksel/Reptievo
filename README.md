@@ -13,17 +13,22 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">
-<img src="[https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)" alt="Get it on Google Play" height="60"/>
+<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">
+<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"/>
 </a>
 </p>
 
 <p align="center">
-📱 <b>Available now on Google Play:</b> <a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">[play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)</a>
+📱 <b>Available now on Google Play:</b>
+<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq</a>
 </p>
 
 <p align="center">
-💼 <b>LinkedIn Company Page:</b> <a href="[https://www.linkedin.com/company/reptievo/?viewAsMember=true](https://www.linkedin.com/company/reptievo/?viewAsMember=true)">[https://www.linkedin.com/company/reptievo/?viewAsMember=true](https://www.linkedin.com/company/reptievo/?viewAsMember=true)</a>
+<b>LinkedIn Company Page</b>
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/company/reptievo/?viewAsMember=true">linkedin.com/company/reptievo</a>
 </p>
 
 ---
@@ -199,4 +204,4 @@ Android App (Kotlin / Jetpack Compose)
 **Ramazan Yüksel**
 Computer Engineering Student · Backend Developer · Android Developer
 
-[GitHub](https://github.com/Ramazan-Yuksel)
+[GitHub](https://github.com/Ramazan-Yuksel) · [LinkedIn (Reptievo)](https://www.linkedin.com/company/reptievo/)
