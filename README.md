@@ -121,9 +121,13 @@ Log cardio sessions with MET-based calorie calculations:
 
 * Reorder exercises
 * Override weights and sets
-* Swap exercises for alternatives
+* Swap exercises for tier-ranked alternatives (equipment-quality-based ordering)
 * Add or remove exercises from any day
 * Real-time synchronization with the backend
+
+### 🧾 Non-Destructive Profile Updates
+
+Editing your profile (weight, goal, activity level, etc.) recalculates your nutrition targets without wiping out your progressive overload history — your weight/reps progression on each exercise stays intact instead of resetting to baseline.
 
 ### 🌙 Recovery Detection
 
@@ -148,7 +152,7 @@ A proactive JWT refresh interceptor checks token expiry before every request and
 ### ⚙️ Account & Security
 
 * Secure password change
-* Email verification on signup
+* Email verification on signup with a custom branded confirmation page (instead of the default provider page)
 * Token-based authentication with automatic rotation
 
 ---
@@ -201,7 +205,7 @@ Android App (Kotlin / Jetpack Compose)
 
 ## ✅ Current Features
 
-* Authentication & email verification
+* Authentication & email verification (with custom branded confirmation page)
 * User onboarding
 * Nutrition calculator
 * Baseline workout generator
@@ -209,8 +213,9 @@ Android App (Kotlin / Jetpack Compose)
 * Smart exercise memory on re-add
 * Cardio tracking with calorie calculation
 * Workout history
-* Exercise overrides & swaps
+* Exercise overrides & swaps (tier-ranked alternatives)
 * Recovery day detection
+* Non-destructive profile updates
 * Profile management
 * Secure password change
 * HTTPS-secured API communication
