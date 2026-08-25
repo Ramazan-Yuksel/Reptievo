@@ -1,4 +1,3 @@
-```md
 <p align="center">
   <img src="assets/logo.png" width="170" alt="Reptievo Logo"/>
 </p>
@@ -134,17 +133,18 @@ Editing your profile (weight, goal, activity level, etc.) recalculates your nutr
 
 If no workout is scheduled for today, Reptievo automatically displays a Recovery Day, encouraging rest as part of the training cycle.
 
-### 🔔 Workout Reminders
+### ⏰ Smart Workout Reminder
 
-If 22:00 arrives and no workout has been logged for the day, Reptievo sends a notification reminding the user to record their workout.
+A lightweight background worker checks your daily training status. If you have a workout scheduled for the day but haven't logged it by 22:00, Reptievo sends a gentle push notification to keep you accountable without being intrusive.
 
-### 🌐 Multi-Language Support
+### 🌍 Multilingual Support
 
-Reptievo supports three languages:
-
+Fully localized interface supporting 3 languages out of the box:
 * English
 * Turkish
 * German
+
+Users can seamlessly switch languages on the fly without needing to restart the application.
 
 ### 🔒 Secure Communication
 
@@ -202,18 +202,16 @@ A proactive JWT refresh interceptor checks token expiry before every request and
 ## 🏗 Architecture
 
 ```
-
 Android App (Kotlin / Jetpack Compose)
-│
-▼
-HTTPS (Nginx + Let's Encrypt)
-│
-▼
-REST API (FastAPI)
-│
-▼
-Supabase (Auth + PostgreSQL)
-
+              │
+              ▼
+   HTTPS (Nginx + Let's Encrypt)
+              │
+              ▼
+     REST API (FastAPI)
+              │
+              ▼
+   Supabase (Auth + PostgreSQL)
 ```
 
 ---
@@ -230,6 +228,8 @@ Supabase (Auth + PostgreSQL)
 * Workout history
 * Exercise overrides & swaps (tier-ranked alternatives)
 * Recovery day detection
+* Smart workout reminder (Sends a push notification at 22:00 if a workout is missed)
+* Multilingual support (English, Turkish, German)
 * Non-destructive profile updates
 * Profile management
 * Secure password change
@@ -237,8 +237,6 @@ Supabase (Auth + PostgreSQL)
 * Seamless session handling (proactive token refresh)
 * Forced update enforcement
 * Automated CI/CD deployment
-* Workout reminder notification at 22:00 if no workout has been logged
-* Three-language support (English, Turkish, German)
 
 ## 🔮 Planned Features
 
@@ -267,4 +265,3 @@ Supabase (Auth + PostgreSQL)
 Computer Engineering Student · Backend Developer · Android Developer
 
 [GitHub](https://github.com/Ramazan-Yuksel) · [LinkedIn (Reptievo)](https://www.linkedin.com/company/reptievo/)
-```
