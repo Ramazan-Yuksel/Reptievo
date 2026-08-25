@@ -13,14 +13,14 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">
-<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"/>
+<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">
+<img src="[https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)" alt="Get it on Google Play" height="60"/>
 </a>
 </p>
 
 <p align="center">
 📱 <b>Available now on Google Play:</b>
-<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq</a>
+<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">[play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)</a>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/company/reptievo/?viewAsMember=true">linkedin.com/company/reptievo</a>
+<a href="[https://www.linkedin.com/company/reptievo/?viewAsMember=true](https://www.linkedin.com/company/reptievo/?viewAsMember=true)">[linkedin.com/company/reptievo](https://linkedin.com/company/reptievo)</a>
 </p>
 
 ---
@@ -133,6 +133,19 @@ Editing your profile (weight, goal, activity level, etc.) recalculates your nutr
 
 If no workout is scheduled for today, Reptievo automatically displays a Recovery Day, encouraging rest as part of the training cycle.
 
+### ⏰ Smart Workout Reminder
+
+A lightweight background worker checks your daily training status. If a workout is scheduled for the day but hasn't been logged by 22:00, Reptievo sends a gentle push notification to keep you accountable without being intrusive.
+
+### 🌍 Multilingual Support
+
+Fully localized interface supporting three languages out of the box:
+* English
+* Turkish
+* German
+
+Users can seamlessly switch languages on the fly without needing to restart the application.
+
 ### 🔒 Secure Communication
 
 All traffic between the app and backend is encrypted end-to-end:
@@ -167,6 +180,7 @@ A proactive JWT refresh interceptor checks token expiry before every request and
 * Retrofit
 * Coroutines
 * DataStore
+* WorkManager (for background tasks & reminders)
 
 **Backend**
 
@@ -215,6 +229,8 @@ Android App (Kotlin / Jetpack Compose)
 * Workout history
 * Exercise overrides & swaps (tier-ranked alternatives)
 * Recovery day detection
+* Smart workout reminder (22:00 daily check)
+* Multilingual support (English, Turkish, German)
 * Non-destructive profile updates
 * Profile management
 * Secure password change
@@ -232,7 +248,6 @@ Android App (Kotlin / Jetpack Compose)
 * Apple Health integration
 * Google Fit integration
 * Wear OS support
-* Push notifications
 * Dark theme improvements
 
 ---
