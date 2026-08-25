@@ -91,6 +91,14 @@ Reptievo automatically adjusts training intensity based on:
 * Weight progression over time
 * Full performance history
 
+### 🧠 Smart Exercise Memory
+
+When an exercise is swapped, removed, and later re-added to the plan, Reptievo doesn't reset it to a generic baseline. It intelligently restores progress in this priority order:
+
+1. **Current plan** — if the exercise already exists elsewhere in your active plan, its weight/reps/sets are reused
+2. **Workout history** — if not in the current plan, the most recent logged performance is used, with progressive overload applied
+3. **Baseline calculation** — only if the exercise has never been performed, a fresh baseline is generated from body stats and experience level
+
 ### 📝 Workout Tracking
 
 Track every session in detail:
@@ -121,6 +129,28 @@ Log cardio sessions with MET-based calorie calculations:
 
 If no workout is scheduled for today, Reptievo automatically displays a Recovery Day, encouraging rest as part of the training cycle.
 
+### 🔒 Secure Communication
+
+All traffic between the app and backend is encrypted end-to-end:
+
+* Full HTTPS enforced via a free Let's Encrypt SSL certificate
+* Nginx reverse proxy in front of the API with automatic HTTP → HTTPS redirection
+* Certificates auto-renew, no manual maintenance required
+
+### 🔄 Forced Update System
+
+Reptievo checks the required minimum app version against the backend on every launch. If a device is running an outdated build, it's blocked with a full-screen prompt and redirected straight to the Google Play listing to update — ensuring all users stay on a consistent, supported version.
+
+### 🔐 Seamless Session Handling
+
+A proactive JWT refresh interceptor checks token expiry before every request and silently renews it in the background when needed. Users are never unexpectedly logged out mid-session, and a synchronized fallback mechanism prevents duplicate refresh calls when multiple requests fire at once.
+
+### ⚙️ Account & Security
+
+* Secure password change
+* Email verification on signup
+* Token-based authentication with automatic rotation
+
 ---
 
 ## 🛠 Tech Stack
@@ -144,6 +174,9 @@ If no workout is scheduled for today, Reptievo automatically displays a Recovery
 **Infrastructure**
 
 * AWS EC2
+* Nginx (reverse proxy)
+* Let's Encrypt SSL (HTTPS)
+* DuckDNS (dynamic DNS)
 * Brevo (transactional email)
 * GitHub Actions (CI/CD — automated deployment on every push to main)
 
@@ -153,6 +186,9 @@ If no workout is scheduled for today, Reptievo automatically displays a Recovery
 
 ```
 Android App (Kotlin / Jetpack Compose)
+              │
+              ▼
+   HTTPS (Nginx + Let's Encrypt)
               │
               ▼
      REST API (FastAPI)
@@ -170,11 +206,16 @@ Android App (Kotlin / Jetpack Compose)
 * Nutrition calculator
 * Baseline workout generator
 * Progressive overload engine
+* Smart exercise memory on re-add
 * Cardio tracking with calorie calculation
 * Workout history
 * Exercise overrides & swaps
 * Recovery day detection
 * Profile management
+* Secure password change
+* HTTPS-secured API communication
+* Seamless session handling (proactive token refresh)
+* Forced update enforcement
 * Automated CI/CD deployment
 
 ## 🔮 Planned Features
