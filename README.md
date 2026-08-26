@@ -13,14 +13,14 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">
-<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"/>
+<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">
+<img src="[https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)" alt="Get it on Google Play" height="60"/>
 </a>
 </p>
 
 <p align="center">
 📱 <b>Available now on Google Play:</b>
-<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq</a>
+<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">[play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)</a>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/company/reptievo/?viewAsMember=true">linkedin.com/company/reptievo</a>
+<a href="[https://www.linkedin.com/company/reptievo/?viewAsMember=true](https://www.linkedin.com/company/reptievo/?viewAsMember=true)">[linkedin.com/company/reptievo](https://linkedin.com/company/reptievo)</a>
 </p>
 
 ---
@@ -120,10 +120,14 @@ Log cardio sessions with MET-based calorie calculations:
 ### 🔧 Workout Customization
 
 * Reorder exercises
-* Override weights and sets
+* Override weights, sets, and **repetitions** dynamically
 * Swap exercises for tier-ranked alternatives (equipment-quality-based ordering)
 * Add or remove exercises from any day
 * Real-time synchronization with the backend
+
+### 📊 Weekly Summary & Analytics
+
+Reptievo automatically generates a detailed end-of-week breakdown to visualize your training progress. It compares your total weekly volume and completed sets against the previous week, calculating your exact volume progression with percentages. The summary automatically detects and highlights any new Personal Records (PRs) achieved during the week. Additionally, it features an 8-week volume trend line chart and a muscle group distribution bar chart to help you analyze exactly how much volume was allocated to each specific muscle group.
 
 ### 🧾 Non-Destructive Profile Updates
 
@@ -201,7 +205,7 @@ A proactive JWT refresh interceptor checks token expiry before every request and
 
 ## 🏗 Architecture
 
-```
+```text
 Android App (Kotlin / Jetpack Compose)
               │
               ▼
@@ -226,7 +230,9 @@ Android App (Kotlin / Jetpack Compose)
 * Smart exercise memory on re-add
 * Cardio tracking with calorie calculation
 * Workout history
-* Exercise overrides & swaps (tier-ranked alternatives)
+* Exercise overrides (reps/weights) & swaps (tier-ranked alternatives)
+* Weekly summary & visual analytics (volume trends, muscle distribution)
+* Automatic PR (Personal Record) tracking
 * Recovery day detection
 * Smart workout reminder (Sends a push notification at 22:00 if a workout is missed)
 * Multilingual support (English, Turkish, German)
@@ -240,8 +246,6 @@ Android App (Kotlin / Jetpack Compose)
 
 ## 🔮 Planned Features
 
-* PR tracking
-* Workout analytics
 * AI workout coach
 * Smart recovery suggestions
 * Apple Health integration
