@@ -13,14 +13,14 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">
-<img src="[https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)" alt="Get it on Google Play" height="60"/>
+<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">
+<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"/>
 </a>
 </p>
 
 <p align="center">
 📱 <b>Available now on Google Play:</b>
-<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">[play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)</a>
+<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq</a>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="[https://www.linkedin.com/company/reptievo/?viewAsMember=true](https://www.linkedin.com/company/reptievo/?viewAsMember=true)">[linkedin.com/company/reptievo](https://linkedin.com/company/reptievo)</a>
+<a href="https://www.linkedin.com/company/reptievo/?viewAsMember=true">linkedin.com/company/reptievo</a>
 </p>
 
 ---
@@ -120,7 +120,7 @@ Log cardio sessions with MET-based calorie calculations:
 ### 🔧 Workout Customization
 
 * Reorder exercises
-* Override weights, sets, and **repetitions** dynamically
+* Override weights and sets
 * Swap exercises for tier-ranked alternatives (equipment-quality-based ordering)
 * Add or remove exercises from any day
 * Real-time synchronization with the backend
@@ -205,7 +205,7 @@ A proactive JWT refresh interceptor checks token expiry before every request and
 
 ## 🏗 Architecture
 
-```text
+```
 Android App (Kotlin / Jetpack Compose)
               │
               ▼
@@ -230,7 +230,7 @@ Android App (Kotlin / Jetpack Compose)
 * Smart exercise memory on re-add
 * Cardio tracking with calorie calculation
 * Workout history
-* Exercise overrides (reps/weights) & swaps (tier-ranked alternatives)
+* Exercise overrides & swaps (tier-ranked alternatives)
 * Weekly summary & visual analytics (volume trends, muscle distribution)
 * Automatic PR (Personal Record) tracking
 * Recovery day detection
