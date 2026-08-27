@@ -59,7 +59,7 @@ The application combines native Android development with intelligent backend ser
 
 ## ✨ Features
 
-### 🤖 Reptievo AI (New!)
+### 🤖 Reptievo AI
 
 Meet your pocket-sized digital fitness coach! Reptievo AI is integrated directly into the dashboard to guide your fitness journey and answer your questions.
 * Powered by **Google Gemini 3.5 Flash Lite** for lightning-fast and highly accurate responses.
@@ -204,7 +204,6 @@ A proactive JWT refresh interceptor checks token expiry before every request and
 * FastAPI
 * PostgreSQL
 * Supabase (Auth + Database)
-* Google Gemini 3.5 Flash Lite API (AI)
 
 **Infrastructure**
 
@@ -228,10 +227,8 @@ Android App (Kotlin / Jetpack Compose)
               ▼
      REST API (FastAPI)
               │
-      ┌───────┴───────┐
-      ▼               ▼
- Supabase       Google Gemini AI
-(Auth+DB)        (AI Assistant)
+              ▼
+   Supabase (Auth + PostgreSQL)
 ```
 
 ---
