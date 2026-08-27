@@ -13,14 +13,14 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">
-<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"/>
+<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">
+<img src="[https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)" alt="Get it on Google Play" height="60"/>
 </a>
 </p>
 
 <p align="center">
 📱 <b>Available now on Google Play:</b>
-<a href="https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq">play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq</a>
+<a href="[https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)">[play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq](https://play.google.com/store/apps/details?id=com.ramazanyuksel.liftiq)</a>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ Smart fitness companion built with Python, Kotlin, Supabase and AWS.
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/company/reptievo/?viewAsMember=true">linkedin.com/company/reptievo</a>
+<a href="[https://www.linkedin.com/company/reptievo/?viewAsMember=true](https://www.linkedin.com/company/reptievo/?viewAsMember=true)">[linkedin.com/company/reptievo](https://linkedin.com/company/reptievo)</a>
 </p>
 
 ---
@@ -58,6 +58,14 @@ The application combines native Android development with intelligent backend ser
 ---
 
 ## ✨ Features
+
+### 🤖 Reptievo AI (New!)
+
+Meet your pocket-sized digital fitness coach! Reptievo AI is integrated directly into the dashboard to guide your fitness journey and answer your questions.
+* Powered by **Google Gemini 3.5 Flash Lite** for lightning-fast and highly accurate responses.
+* Custom-trained via tailored context injection on the application's unique RPE philosophy, features, and mechanics.
+* Provides instant help with app navigation, workout mechanics, hypertrophy science, and macro nutrition.
+* Strictly stays in character — it won't answer non-fitness related prompts! 🛡️
 
 ### 🧭 Smart Onboarding
 
@@ -143,10 +151,15 @@ A lightweight background worker checks your daily training status. If you have a
 
 ### 🌍 Multilingual Support
 
-Fully localized interface supporting 3 languages out of the box:
+Fully localized interface supporting 8 languages out of the box:
 * English
 * Turkish
 * German
+* Spanish
+* French
+* Italian
+* Portuguese
+* Russian
 
 Users can seamlessly switch languages on the fly without needing to restart the application.
 
@@ -191,6 +204,7 @@ A proactive JWT refresh interceptor checks token expiry before every request and
 * FastAPI
 * PostgreSQL
 * Supabase (Auth + Database)
+* Google Gemini 3.5 Flash Lite API (AI)
 
 **Infrastructure**
 
@@ -205,7 +219,7 @@ A proactive JWT refresh interceptor checks token expiry before every request and
 
 ## 🏗 Architecture
 
-```
+```text
 Android App (Kotlin / Jetpack Compose)
               │
               ▼
@@ -214,14 +228,17 @@ Android App (Kotlin / Jetpack Compose)
               ▼
      REST API (FastAPI)
               │
-              ▼
-   Supabase (Auth + PostgreSQL)
+      ┌───────┴───────┐
+      ▼               ▼
+ Supabase       Google Gemini AI
+(Auth+DB)        (AI Assistant)
 ```
 
 ---
 
 ## ✅ Current Features
 
+* Reptievo AI (Intelligent fitness assistant powered by Gemini 3.5 Flash Lite)
 * Authentication & email verification (with custom branded confirmation page)
 * User onboarding
 * Nutrition calculator
@@ -235,7 +252,7 @@ Android App (Kotlin / Jetpack Compose)
 * Automatic PR (Personal Record) tracking
 * Recovery day detection
 * Smart workout reminder (Sends a push notification at 22:00 if a workout is missed)
-* Multilingual support (English, Turkish, German)
+* Multilingual support (English, Turkish, German, Spanish, French, Italian, Portuguese, Russian)
 * Non-destructive profile updates
 * Profile management
 * Secure password change
@@ -243,15 +260,6 @@ Android App (Kotlin / Jetpack Compose)
 * Seamless session handling (proactive token refresh)
 * Forced update enforcement
 * Automated CI/CD deployment
-
-## 🔮 Planned Features
-
-* AI workout coach
-* Smart recovery suggestions
-* Apple Health integration
-* Google Fit integration
-* Wear OS support
-* Dark theme improvements
 
 ---
 
