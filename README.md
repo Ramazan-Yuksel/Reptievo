@@ -66,6 +66,7 @@ Meet your pocket-sized digital fitness coach! Reptievo AI is integrated directly
 * Custom-trained via tailored context injection on the application's unique RPE philosophy, features, and mechanics.
 * Provides instant help with app navigation, workout mechanics, hypertrophy science, and macro nutrition.
 * Strictly stays in character — it won't answer non-fitness related prompts! 🛡️
+* Rate-limited to 40 messages per user per day to ensure fair usage and service stability.
 
 ### 🧭 Smart Onboarding
 
@@ -128,7 +129,7 @@ Log cardio sessions with MET-based calorie calculations:
 ### 🔧 Workout Customization
 
 * Reorder exercises
-* Override weights and sets
+* Override weights, sets, and reps
 * Swap exercises for tier-ranked alternatives (equipment-quality-based ordering)
 * Add or remove exercises from any day
 * Real-time synchronization with the backend
