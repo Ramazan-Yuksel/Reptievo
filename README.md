@@ -68,7 +68,7 @@ Meet your pocket-sized digital fitness coach! Reptievo AI is integrated directly
 * Strictly stays in character — it won't answer non-fitness related prompts! 🛡️
 * Rate-limited to 40 messages per user per day to ensure fair usage and service stability.
 * Advanced RAG Integration: Employs Retrieval-Augmented Generation using a local embedding model (`all-mpnet-base-v2`) and Supabase pgvector.
-* Dynamic Knowledge Base: Instantly retrieves highly accurate nutritional data from a seamlessly integrated database of 100+ food items, preventing AI hallucinations and providing precise macro advice.
+* Dynamic Knowledge Base: Instantly retrieves highly accurate nutritional data from a seamlessly integrated database of 200+ food items, preventing AI hallucinations and providing precise macro advice.
 
 ### 🧭 Smart Onboarding
 
