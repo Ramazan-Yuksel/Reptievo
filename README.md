@@ -64,6 +64,7 @@ The application combines native Android development with intelligent backend ser
 Meet your pocket-sized digital fitness coach! Reptievo AI is integrated directly into the dashboard to guide your fitness journey and answer your questions.
 * Powered by **Google Gemini 3.5 Flash Lite** for lightning-fast and highly accurate responses.
 * Custom-trained via tailored context injection on the application's unique RPE philosophy, features, and mechanics.
+* **Context-Aware Memory:** Maintains conversational context by remembering your recent messages within the active chat session, allowing for natural, multi-turn interactions and follow-up questions.
 * Provides instant help with app navigation, workout mechanics, hypertrophy science, and macro nutrition.
 * Strictly stays in character — it won't answer non-fitness related prompts! 🛡️
 * Rate-limited to 40 messages per user per day to ensure fair usage and service stability.
