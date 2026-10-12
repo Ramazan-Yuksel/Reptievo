@@ -68,7 +68,7 @@ Meet your pocket-sized digital fitness coach! Reptievo AI is integrated directly
 * Provides instant help with app navigation, workout mechanics, hypertrophy science, and macro nutrition.
 * Strictly stays in character — it won't answer non-fitness related prompts! 🛡️
 * Rate-limited to 40 messages per user per day to ensure fair usage and service stability.
-* Advanced RAG Integration: Employs Retrieval-Augmented Generation using a local embedding model (`all-mpnet-base-v2`) and Supabase pgvector.
+* Advanced RAG Integration: Employs Retrieval-Augmented Generation using Google's multilingual `gemini-embedding-001` model and Supabase pgvector, so questions are matched to nutrition data by meaning, in any supported language.
 * Dynamic Knowledge Base: Instantly retrieves highly accurate nutritional data from a seamlessly integrated database of 200+ food items to provide precise, science-based macro advice.
 
 ### 🧭 Smart Onboarding
@@ -151,7 +151,7 @@ If no workout is scheduled for today, Reptievo automatically displays a Recovery
 
 ### ⏰ Smart Workout Reminder
 
-A lightweight background worker checks your daily training status. If you have a workout scheduled for the day but haven't logged it by 22:00, Reptievo sends a gentle push notification to keep you accountable without being intrusive.
+A scheduled daily alarm fires around 22:00 and checks your training status. If you have exercises planned for the day and at least one is still unlogged, Reptievo sends a gentle push notification to keep you accountable without being intrusive. The alarm re-arms itself every day and after a device reboot, and rest days never trigger a notification.
 
 ### 🌍 Multilingual Support
 
@@ -188,7 +188,7 @@ A proactive JWT refresh interceptor checks token expiry before every request and
 * Secure password change
 * Email verification on signup with a custom branded confirmation page (instead of the default provider page)
 * Token-based authentication with automatic rotation
-
+* Clear, localized error messages (e.g. wrong password vs. account not found) shown in the language you selected
 ---
 
 ## 🛠 Tech Stack
@@ -253,7 +253,7 @@ Android App (Kotlin / Jetpack Compose)
 * Weekly summary & visual analytics (volume trends, muscle distribution)
 * Automatic PR (Personal Record) tracking
 * Recovery day detection
-* Smart workout reminder (Sends a push notification at 22:00 if a workout is missed)
+* Smart workout reminder (Sends a push notification around 22:00 if planned exercises are still unlogged)
 * Multilingual support (English, Turkish, German, Spanish, French, Italian, Portuguese, Russian)
 * Non-destructive profile updates
 * Profile management
