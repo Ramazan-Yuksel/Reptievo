@@ -86,6 +86,7 @@ Automatically calculates:
 * BMR (Basal Metabolic Rate)
 * TDEE (Total Daily Energy Expenditure)
 * Daily calorie target
+* Calorie and carbohydrate cycling for all goals: higher targets on scheduled workout days and lower targets on rest days, while preserving the weekly calorie budget and keeping protein and fat grams constant.
 
 ### 🏋️ Intelligent Workout Planning
 
@@ -102,6 +103,7 @@ Reptievo automatically adjusts training intensity based on:
 * Previous workout performance
 * Weight progression over time
 * Full performance history
+* Cutting-aware progression: RPE 1–6 follows normal progression, while RPE 7–9 keeps weight and reps unchanged. At RPE 10, reps are reduced first; at 8 reps or fewer, weight is reduced where equipment limits allow. Sets remain unchanged.
 
 ### 🧠 Smart Exercise Memory
 
