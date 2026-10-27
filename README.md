@@ -141,7 +141,8 @@ Log cardio sessions with MET-based calorie calculations:
 
 ### 📊 Weekly Summary & Analytics
 
-Reptievo automatically generates a detailed end-of-week breakdown to visualize your training progress. It compares your total weekly volume and completed sets against the previous week, calculating your exact volume progression with percentages. The summary automatically detects and highlights any new Personal Records (PRs) achieved during the week. Additionally, it features an 8-week volume trend line chart and a muscle group distribution bar chart to help you analyze exactly how much volume was allocated to each specific muscle group.
+* Reptievo automatically generates a detailed end-of-week breakdown to visualize your training progress. It compares your total weekly volume and completed sets against the previous week, calculating your exact volume progression with percentages. The summary automatically detects and highlights any new Personal Records (PRs) achieved during the week. Additionally, it features an 8-week volume trend line chart and a muscle group distribution bar chart to help you analyze exactly how much volume was allocated to each specific muscle group.
+* Browse previous weeks to review your workout history and compare performance across weeks using weekly summaries, volume trends, and personal records.
 
 ### 🧾 Non-Destructive Profile Updates
 
